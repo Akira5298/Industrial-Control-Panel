@@ -126,6 +126,13 @@ Because these dependencies are not included, this repository is **not intended t
 
 The included files are intended to demonstrate the Kotlin application architecture, MVVM implementation, state management, UI structure, and frontend-to-backend integration approach used during development.
 
+## Documentation
+
+Additional project documentation is available in the [`docs`](./docs) folder:
+
+- **Technical Specification** — architecture, API integration, state management, backend communication, and validation details.
+- **Feature Requirements** — UI behavior, workflows, functional requirements, edge cases, and testing criteria.
+
 ## Technologies
 
 - Kotlin
