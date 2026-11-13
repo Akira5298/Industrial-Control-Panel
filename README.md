@@ -4,6 +4,12 @@ A Kotlin/Compose Desktop control-panel project developed as part of an industry 
 
 This repository contains a **sanitized subset** of the implementation, focused on the MVVM architecture and the integration between the desktop UI, ViewModel, application state, and hardware-service managers.
 
+## Control Panel UI
+
+![Control Panel UI in the Lamina App](Media/UI.png)
+
+*Control Panel UI in the Lamina App, showing the monitoring and control interfaces for rail width, conveyor belt, outer barriers, clamps, and safety level sensors.*
+
 ## Overview
 
 The Control Panel provides a centralized interface for operating and monitoring several machine subsystems, including:
@@ -168,3 +174,4 @@ The main purpose of this repository is to demonstrate experience with:
 - Integration with an existing Java and native backend architecture
 
 This repository represents only the non-confidential portion of the original industry project.
+
