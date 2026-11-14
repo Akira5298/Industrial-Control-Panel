@@ -1,14 +1,25 @@
+
 # Lamina Control Panel
 
-A Kotlin/Compose Desktop control-panel project developed as part of an industry engineering project.
+A Kotlin/Compose Desktop control-panel project developed as part of an industrial software engineering project.
 
-This repository contains a **sanitized subset** of the implementation, focused on the MVVM architecture and the integration between the desktop UI, ViewModel, application state, and hardware-service managers.
+This repository contains a **sanitized subset** of the implementation, focusing on the MVVM architecture and integration between the desktop UI, ViewModel, application state, and hardware-service managers.
 
 ## Control Panel UI
 
 ![Control Panel UI in the Lamina App](Media/UI.png)
 
-*Control Panel UI in the Lamina App, showing the monitoring and control interfaces for rail width, conveyor belt, outer barriers, clamps, and safety level sensors.*
+*Control Panel UI in the Lamina application, showing the monitoring and control interfaces for rail width, conveyor belt, outer barriers, panel clamps, and safety level sensors.*
+
+## Industrial Hardware Environment
+
+The Control Panel was developed in the context of an industrial automated inspection system, where desktop software interacts with machine subsystems through existing backend and hardware-service layers.
+
+The application provides centralized monitoring and control of hardware operations while coordinating asynchronous state updates, input validation, operation interlocks, and subsystem lifecycle management.
+
+![Industrial Inspection Machine](Media/Machine.jpeg)
+
+*Industrial inspection equipment associated with the Control Panel development project, illustrating the physical hardware environment in which software-controlled mechanical and electrical subsystems operate.*
 
 ## Overview
 
@@ -174,4 +185,3 @@ The main purpose of this repository is to demonstrate experience with:
 - Integration with an existing Java and native backend architecture
 
 This repository represents only the non-confidential portion of the original industry project.
-
