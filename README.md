@@ -17,7 +17,11 @@ The Control Panel was developed in the context of an industrial automated inspec
 
 The application provides centralized monitoring and control of hardware operations while coordinating asynchronous state updates, input validation, operation interlocks, and subsystem lifecycle management.
 
-![Industrial Inspection Machine](Media/Machine.jpeg)
+<p align="center">
+  <img src="Media/Machine.jpeg"
+       alt="Industrial Inspection Machine"
+       width="400">
+</p>
 
 *Industrial inspection equipment associated with the Control Panel development project, illustrating the physical hardware environment in which software-controlled mechanical and electrical subsystems operate.*
 
