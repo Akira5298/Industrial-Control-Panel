@@ -23,20 +23,6 @@ The Control Panel provides a centralized interface for operating and monitoring 
 
 The application was designed to keep the UI synchronized with confirmed hardware state while handling asynchronous operations, validation, interlocks, loading states, error handling, and subsystem lifecycle management.
 
-## Industrial Hardware Environment
-
-The Control Panel was developed in the context of an industrial automated inspection system, where desktop software interacts with machine subsystems through existing backend and hardware-service layers.
-
-The application provides centralized monitoring and control of hardware operations while coordinating asynchronous state updates, input validation, operation interlocks, and subsystem lifecycle management.
-
-<p align="center">
-  <img src="Media/Machine.jpeg"
-       alt="Industrial Inspection Machine"
-       width="400">
-</p>
-
-*Industrial inspection equipment associated with the Control Panel development project, illustrating the physical hardware environment in which software-controlled mechanical and electrical subsystems operate.*
-
 ## Architecture
 
 The project follows an MVVM-style structure:
@@ -129,23 +115,19 @@ Backend / Hardware Service
 
 The ViewModel acts as the central coordination layer between the frontend and the underlying subsystem managers.
 
-## Repository Scope
+## Industrial Hardware Environment
 
-This repository is intended as a **portfolio demonstration** and does not contain the complete production codebase.
+The Control Panel was developed in the context of an industrial automated inspection system, where desktop software interacts with machine subsystems through existing backend and hardware-service layers.
 
-For company privacy and intellectual-property protection, several parts of the original project have intentionally been excluded, including:
+The application provides centralized monitoring and control of hardware operations while coordinating asynchronous state updates, input validation, operation interlocks, and subsystem lifecycle management.
 
-- Proprietary Java backend implementations
-- Native C++ and JNI implementations
-- Internal company libraries and APIs
-- Hardware configuration files
-- Production service implementations
-- Original Figma design files and UI diagram assets
-- Other confidential company-specific resources
+<p align="center">
+  <img src="Media/Machine.jpeg"
+       alt="Industrial Inspection Machine"
+       width="400">
+</p>
 
-Because these dependencies are not included, this repository is **not intended to run as a standalone production application**.
-
-The included files are intended to demonstrate the Kotlin application architecture, MVVM implementation, state management, UI structure, and frontend-to-backend integration approach used during development.
+*Industrial inspection equipment associated with the Control Panel development project, illustrating the physical hardware environment in which software-controlled mechanical and electrical subsystems operate.*
 
 ## Documentation
 
@@ -164,3 +146,21 @@ Additional project documentation is available in the [`docs`](./docs) folder:
 - Java interoperability
 - Native backend integration
 - Git / GitHub
+
+## Repository Scope
+
+This repository is intended as a **portfolio demonstration** and does not contain the complete production codebase.
+
+For company privacy and intellectual-property protection, several parts of the original project have intentionally been excluded, including:
+
+- Proprietary Java backend implementations
+- Native C++ and JNI implementations
+- Internal company libraries and APIs
+- Hardware configuration files
+- Production service implementations
+- Original Figma design files and UI diagram assets
+- Other confidential company-specific resources
+
+Because these dependencies are not included, this repository is **not intended to run as a standalone production application**.
+
+The included files are intended to demonstrate the Kotlin application architecture, MVVM implementation, state management, UI structure, and frontend-to-backend integration approach used during development.
