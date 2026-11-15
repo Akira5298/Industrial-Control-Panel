@@ -11,6 +11,18 @@ This repository contains a **sanitized subset** of the implementation, focusing 
 
 *Control Panel UI in the Lamina application, showing the monitoring and control interfaces for rail width, conveyor belt, outer barriers, panel clamps, and safety level sensors.*
 
+## Overview
+
+The Control Panel provides a centralized interface for operating and monitoring several machine subsystems, including:
+
+- Rail Width
+- Conveyor Belt
+- Outer Barriers
+- Panel Clamps
+- Safety Level Sensors
+
+The application was designed to keep the UI synchronized with confirmed hardware state while handling asynchronous operations, validation, interlocks, loading states, error handling, and subsystem lifecycle management.
+
 ## Industrial Hardware Environment
 
 The Control Panel was developed in the context of an industrial automated inspection system, where desktop software interacts with machine subsystems through existing backend and hardware-service layers.
@@ -24,18 +36,6 @@ The application provides centralized monitoring and control of hardware operatio
 </p>
 
 *Industrial inspection equipment associated with the Control Panel development project, illustrating the physical hardware environment in which software-controlled mechanical and electrical subsystems operate.*
-
-## Overview
-
-The Control Panel provides a centralized interface for operating and monitoring several machine subsystems, including:
-
-- Rail Width
-- Conveyor Belt
-- Outer Barriers
-- Panel Clamps
-- Safety Level Sensors
-
-The application was designed to keep the UI synchronized with confirmed hardware state while handling asynchronous operations, validation, interlocks, loading states, error handling, and subsystem lifecycle management.
 
 ## Architecture
 
